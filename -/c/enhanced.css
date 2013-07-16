@@ -1,0 +1,24 @@
+/* Enhanced */
+
+
+
+/*-------------------------------------------    
+	Nav
+-------------------------------------------*/
+
+
+.nav-container { width:25%; top:0; text-align:right; height:100%;}
+
+.nav { font-size:1.4rem; color:#313130; padding:0 2em 0 0;}
+
+.nav-button { line-height:1.25em; position:fixed; right:0; padding:0 0.5em 0 0;}
+
+.nav-button-link { display:block; margin:0 1.75em 0 0; color:#9d9c98;}
+
+.nav-button-link:hover { border-bottom:none; }
+
+.nav-button-link:before { content:"";float:right; border-top: 4px solid transparent; border-bottom: 4px solid transparent; border-left: 4px solid #cecdc8; font-size:0; position: relative; top: 6px; right: -16px; }
+
+.nav-button-link:hover:before { border-left-color:#cc0000;}
+
+.nav-button-link .nav-break { display:block; position:relative; top:-6px; line-height:1em;}

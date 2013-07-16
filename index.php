@@ -59,7 +59,7 @@
         
         <section class="intro">
             <div class="lead-intro">
-                <p class="lead-intro-content">I work with words and ideas. <span class="rwd-break">I help people make decisions about their work&#59;</span> <span class="rwd-break">then I help make their plans happen.</span> <span class="rwd-break">I work with people who want to do good in this</span> world or create things that delight you.</span>
+                <p class="lead-intro-content">I work with words and ideas. <span class="small-rwd-break">I help people make decisions about their work&#59;</span> <span class="small-rwd-break">then I help make their plans happen.</span> <span class="small-rwd-break">I work with people who want to do good in this</span> world or create things that delight you.</span>
             </div>
             <div class="super-intro">
                 <p class="super-intro-content">I&rsquo;m <span class="special">Carolyn Wood</span>. Pixelingo is my consultancy providing user&#45;experience&#45;focused writing, editing, content strategy and creative direction for businesses, nonprofits, designers, artists, and indie publishers. Based in a grey, drizzly, secret hideaway, I work with clients from around the world.</p>

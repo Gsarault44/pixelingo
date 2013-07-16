@@ -122,6 +122,8 @@ sub, sup { line-height: 0; }
 
 .rwd-break { display: block; }
 
+.small-rwd-break { display:inline; }
+
 /*-------------------------------------------    
 	Modules
 -------------------------------------------*/
@@ -150,7 +152,7 @@ sub, sup { line-height: 0; }
 -------------------------------------------*/
 .page { border-top:6px solid #313130; background:#f5f4ee;  }
 
-.page-wrap { width:90%; padding-left:5.46875%; }
+.page-wrap { width:87%; padding-left:5.46875%; }
 
 
 /*-------------------------------------------    
@@ -259,23 +261,22 @@ sub, sup { line-height: 0; }
 
 
 
-@media screen and (max-width: 585px) {
-    .rwd-break { display:inline; }
+@media screen and (min-width: 605px) {
+    
+    .small-rwd-break { display:block; }
+    
+    .lead-intro-content { font-size: 2.5rem; }
 }
-
-
 
 @media screen and (min-width: 550px) {
 
     p, ul, dl, ol, table { font-size: 18px; font-size:1.7rem; }
-
-    .lead-intro-content { font-size: 2.5rem; }
     
     .section-heading { font-size:20px; font-size:2rem; }
     
-    .input-style { width:41%;/*LS 38%*/ }
+    .input-style { width:41%; }
 
-    .input-area { width:57%; /* LS 51% */ }
+    .input-area { width:57%; }
     
     .dotted-dot:before { top:20px; }
     
@@ -288,6 +289,7 @@ sub, sup { line-height: 0; }
     .logo { width:181px; }
     
     .slogan { margin:8px 0 0 0;}
+    
 }
 
 
@@ -296,6 +298,8 @@ sub, sup { line-height: 0; }
     .lead-intro-content { font-size: 2.6rem; line-height: 1.35em; margin:0 0 3.35rem;}
     
     .copywright { float:left;}
+    
+    .copywright .copywright-content { font-size:14px; font-size:1.4rem; margin:0 0 1rem; }
     
     .social { float:right;}
     
@@ -313,9 +317,7 @@ sub, sup { line-height: 0; }
     .input-area { width:63%; /* LS 51% */ }
     
     .nav-container { display:block;}
-    
-    
-    
+
     .nav-button { max-width:29%; }
     
     

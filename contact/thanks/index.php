@@ -39,11 +39,13 @@
         
         
         <section class="heading">
-            <img src="/-/i/pixelingo.svg" alt="Pixelingo Logo" class="logo-img" />
+            <a href="/">
+                <img src="/-/i/pixelingo.svg" alt="Pixelingo Logo" class="logo-img" />
+            </a>
             
-            
-            
-            <h1 class="phark logo">Pixelingo</h1>
+            <a href="/">
+                <h1 class="phark logo">Pixelingo</h1>
+            </a>
             <p class="slogan">Heavy meds for your pain points</p>
         </section><!-- .heading -->
         
@@ -57,23 +59,22 @@
         <section class="intro">
             <div class="lead-intro">
                 <p class="lead-intro-content">Hey thanks getting in touch. I will get back to you as soon as possible!</span>
-            </div>
-               
-        </section>
+            </div><!-- .lead-intro -->
+        </section><!-- .intro -->
             	
         
         </section><!-- .contact -->
         
         <section class="footer">
             <div class="copywright">
-                <p>Copyright &copy;2000&#45;2013 Carolyn Wood. All Rights Reserved.</p>
+                <p class="copywright-content">Copyright &copy;2000&#45;2013 Carolyn Wood. <span class="small-rwd-break">All Rights Reserved.</span></p>
             </div><!-- .copywright -->    
             
             <div class="social">
                 <p><a class="content-link" href="">&#64;carywood</a></p>
             </div><!-- .social -->
             
-        </section><!-- .footer -->    
+        </section><!-- .footer -->   
         
         
         

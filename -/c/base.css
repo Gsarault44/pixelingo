@@ -142,7 +142,7 @@ sub, sup { line-height: 0; }
 
 .dotted { list-style:none; line-height:1.35em;}
 
-.dotted-dot { line-height:1.65em; margin:0 0 -0.3em;}
+.dotted-dot { line-height:1.65em; margin:0 0 -0.3em; padding-left:2.1rem;}
 
 .dotted-dot:before { content:" "; background:#cecdc8; border-radius: 50%; width: 8px; height: 8px; display:block; position:relative; left:-20px; top:15px;}
 
@@ -257,6 +257,10 @@ sub, sup { line-height: 0; }
 .social .content-link:hover { border-bottom:1px solid #cc0000; }
 
 
+@media screen and (min-width: 420px) {
+        
+    .dotted-dot { padding-left:0;}
+}
 
 
 
@@ -275,6 +279,7 @@ sub, sup { line-height: 0; }
     .logo { float:left; }
     
     .slogan { float:left; margin-top:1.4rem;}
+    
 }
 
 @media screen and (min-width: 605px) {

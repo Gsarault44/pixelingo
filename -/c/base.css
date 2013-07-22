@@ -315,6 +315,8 @@ sub, sup { line-height: 0; }
 @media screen and (min-width: 960px) {
      
     .page-wrap { width:63%; }
+
+    .heading { padding: 6rem 0 5rem; }
         
     .input-style { width:50%;/*LS 38%*/ }
 

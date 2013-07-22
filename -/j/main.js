@@ -38,8 +38,40 @@ $(document).ready(function () {
           });
           
           
+   
+         /*
+          $('.submit').click(function(){
+                    if($('#contact-name').val() == "") {
+                       $('#contact-name').addClass('red');
+                       
+                     } else {
+                         $('#contact-name').removeClass('red');
+                     };
+                     if($('#contact-email').val() == "") {
+                        $('#contact-email').addClass('red');
+                       
+                      } else {
+                          $('#contact-email').removeClass('red');
+                      };
+                      if($('#contact-message').val() == "") {
+                         $('#contact-message').addClass('red');
+                       
+                       } else {
+                           $('#contact-message').removeClass('red');
+                       };
+                     
+                   });*/
+         
           
-          
+          function validateForm()
+          {
+          var x=document.forms["contact-form"]["contact-name"].value;
+          if (x==null || x=="")
+            {
+            alert("First name must be filled out");
+            return false;
+            }
+          }
           
           
          

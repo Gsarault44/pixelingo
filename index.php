@@ -172,11 +172,11 @@
         
         <section class="contact" id="contact">
             <h1 class="section-heading h2">Say Hello!</h1>
-            <form class="contact-form" id="contact-form" method="post" action="/contact/script/">
+            <form class="contact-form" name="contact-form" id="contact-form" method="post" action="/contact/script/">
 
                 <div>
-                    <label for="contact-name">You name</label>
-                    <input class="input-style" type="text" id="contact-name" name="contact-name" required />
+                    <label for="contact-name" alt="required">You name</label>
+                    <input class="input-style required" type="text" id="contact-name" name="contact-name" required />
                 </div>
                 
                 <div>
@@ -185,13 +185,13 @@
                 </div>
     
                 <div>
-                    <label for="contact-email">Your email address</label>
-                    <input  class="input-style" type="text" id="contact-email" name="contact-email" required />
+                    <label for="contact-email" alt="required">Your email address</label>
+                    <input  class="input-style required" type="text" id="contact-email" name="contact-email" required />
                 </div>
 
                 <div>
-                    <label for="contact-message">Your message</label>
-                    <textarea class="input-style input-area" id="contact-message" name="contact-message" cols="40" rows="8" required></textarea>
+                    <label for="contact-message" alt="required">Your message</label>
+                    <textarea class="input-style input-area required" id="contact-message" name="contact-message" cols="40" rows="8" required /></textarea>
                 </div>
     
                 <div class="hide">
@@ -200,7 +200,7 @@
                 </div>
                 <div class="contact-checkbox">
                     <label for="contact-newsletter">Subscribe to my newsletter</label>
-                    <input class="left-box" type="checkbox" id="contact-newsletter" name="contact-newsletter">
+                    <input class="left-box" type="checkbox" id="contact-newsletter" name="contact-newsletter" value="yes">
                 </div>    
 
                 <div class="submit">

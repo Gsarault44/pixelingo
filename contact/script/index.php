@@ -22,7 +22,7 @@
         Initial Testing
 	........................................................................................*/    
     
-    if (strtolower($contactTest) != '' || $contactName == '' || $contactEmail == '' || $contactMessage == '' ||  ) {
+    if (strtolower($contactTest) != '' || $contactName == ''|| $contactWebsite == '' || $contactEmail == '' || $contactMessage == '' || $contactNews == '' ) {
         //die('Wrong access code');
         header( "Location: /contact/?error" );
         exit;
@@ -38,7 +38,7 @@
 	    $contactBody .= "Website: " . $contactWebsite . "\n\n";
 	}
 	$contactBody .= "Message: " . $contactMessage . "\n\n";
-	$contactBody .= "Newsletter: " . $contactNews . "\n\n";
+	$contactBody .= "Newsletter:" . $contactNews . "\n\n";
 	
 	
     

@@ -176,7 +176,7 @@
 
                 <div>
                     <label for="contact-name" alt="required">You name</label>
-                    <input class="input-style" type="text" id="contact-name" name="contact-name" required oninvalid="setCustomValidity('Please enter you name')" />
+                    <input class="input-style" type="text" id="contact-name" name="contact-name" required oninvalid="setCustomValidity('Please enter you name')" oninput="setCustomValidity('')"/>
                 </div>
                 
                 <div>
@@ -186,12 +186,12 @@
     
                 <div>
                     <label for="contact-email" alt="required">Your email address</label>
-                    <input  class="input-style" type="text" id="contact-email" name="contact-email" required oninvalid="setCustomValidity('Please enter you e-mail address')" />
+                    <input  class="input-style" type="text" id="contact-email" name="contact-email" required oninvalid="setCustomValidity('Please enter you e-mail address')" oninput="setCustomValidity('')" />
                 </div>
 
                 <div>
                     <label for="contact-message" alt="required">Your message</label>
-                    <textarea class="input-style input-area" id="contact-message" name="contact-message" cols="40" rows="8" required oninvalid="setCustomValidity('Please add a message')" /></textarea>
+                    <textarea class="input-style input-area" id="contact-message" name="contact-message" cols="40" rows="8" required oninvalid="setCustomValidity('Please add a message')" oninput="setCustomValidity('')" /></textarea>
                 </div>
     
                 <div class="hide">

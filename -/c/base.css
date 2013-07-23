@@ -89,6 +89,7 @@ i { font-style: normal; }
 b { font-weight: normal; }
 
 abbr, abbr[title], acronym { font-size: 75%; letter-spacing: 0.2em; text-transform: uppercase; border: none; }
+abbr:hover { cursor: help; }
 
 code { font: 1.4rem/1 Consolas, 'Courier New', Courier, monospace; color: #999; }
 

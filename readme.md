@@ -9,6 +9,7 @@ Here is some explanation on how some of this stuff works.
 # Navigation #
 
 The Navigation on the right side of a desktop view.(Not visible on mobile devices)
+
 If you change any of the heading of any of the sections the navigation will automatically change to the new heading. 
 
 
@@ -45,7 +46,6 @@ This page looks the same as the home page EXCEPT at the very beginning of the co
 
 
 Everything is in this Pixelingo.zip file and can just be extracted and uploaded to your hosting provider.
-
 If you would like, I could launch this. I would just need to know some server information. 
 
 

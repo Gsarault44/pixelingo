@@ -14,9 +14,10 @@ If you change any of the heading of any of the sections the navigation will auto
 
 # Content #
 
-I am using HTML Character Code
-http://designerstoolbox.com/designresources/html/
+I am using HTML Character Code for adding in character symbols.( like single quotes, and double quotes, etc )
 
+Here are some that might be helpful. 
+http://designerstoolbox.com/designresources/html/
 
 
 # Contact #
@@ -38,7 +39,7 @@ If someone fails to fill out the contact form properly. (Such as a bad e-mail ad
 This page looks the same as the home page EXCEPT at the very beginning of the contact form shows an error message. 
 
  
-
+    
 
 # Launch #
 

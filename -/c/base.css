@@ -46,7 +46,7 @@ h2, .h2 { font: 700 1.8rem 'PT Serif', serif; margin: 0 0 1em; color:#313130;}
 h3, .h3 { font: 700 1.5rem 'PT Serif', serif; margin: 0 0 1em; }
 h4, h5, h6, .h4, .h5, .h6 { font: 700 1.2rem 'PT Serif', serif; margin: 0 0 1em; }
 
-p, ul, dl, ol, table { font-size: 16px; font-size:1.6rem; margin: 0 0 40px; line-height:1.75em; }
+p, ul, dl, ol, table, strong { font-size: 16px; font-size:1.6rem; margin: 0 0 40px; line-height:1.75em; }
 /*
 -webkit-transition: all 0.2s ease;
 -moz-transition: all 0.2s ease;

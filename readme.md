@@ -26,6 +26,7 @@ http://designerstoolbox.com/designresources/html/
 ### Email Change ##
 In the content/script folder, open the index.php file.
 On Line 15 you can replace the e-mail address in there to where you would like the contact form to send the information. 
+As of right now it is set to  contactus@pixelingo.com
 
 
 ### Thank You Change ###

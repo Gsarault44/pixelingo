@@ -12,7 +12,7 @@
 	$contactTest = $_POST["contact-antispam"];	
     $contactNews = $_POST["contact-newsletter"];
 
-	$sendTo = "greg@superfriend.ly";
+	$sendTo = " contactus@pixelingo.com";
 	$subject = $contactName."'s email from Pixelingo.com";
 	//$headers = 'From: '.$contactName.' <'.$contactEmail.'> '. $contactEmail;
 	$headers = 'From: '.$contactName.' <'.$contactEmail.'> ';

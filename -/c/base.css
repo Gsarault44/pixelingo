@@ -129,6 +129,7 @@ sub, sup { line-height: 0; }
 
 .error { color: #cc0000; margin:0; }
 
+.quote-indent { text-indent:-0.45em;}
 /*-------------------------------------------    
 	Modules
 -------------------------------------------*/

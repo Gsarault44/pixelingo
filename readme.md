@@ -42,12 +42,12 @@ This page looks the same as the home page EXCEPT at the very beginning of the co
 
  
     
-
 # Launch #
 
 
 Everything is in this Pixelingo.zip file and can just be extracted and uploaded to your hosting provider.
-If you would like, I could launch this. I would just need to know some server information. 
+If you would like, I could launch this. I would just need to know some server information.
+But i would still like for you to go over all the content and see if is anything else that you would like to add or remove.
 
 
 

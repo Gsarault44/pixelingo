@@ -7,10 +7,13 @@
 <!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
 
 <head>    
-    <title></title>
+    <title>Pixelingo</title>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-    <meta name="description" content="" />
+    
+    
+    <!-- This is the description that shows up in your google search. -->
+    <meta name="description" content="Carolyn Wood's consultancy providing user-experience-focused writing, editing, content strategy and creative direction for businesses, nonprofits, artists, and indie publishers." />
 
     <!-- http://blog.javierusobiaga.com/stop-using-the-viewport-tag-until-you-know-ho -->
     <meta name="viewport" content="width=device-width , initial-scale=1.0" />
@@ -18,12 +21,12 @@
     <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
 
     <!-- Facebook stuff -->    
-    <meta property="og:title" content="SuperFriendly: Defeating apathy and the forces of evil" />
+    <meta property="og:title" content="Pixelingo: Heavy meds for your pain points" />
     <meta property="og:type" content="website" />
-    <meta property="og:url" content="http://superfriend.ly/" />
-    <meta property="og:image" content="http://superfriend.ly/i/superfriendly-badge.png" />
-    <meta property="og:site_name" content="SuperFriendly" />
-    <meta property="og:description" content="Defeating apathy and the forces of evil." />
+    <meta property="og:url" content="http://www.pixelingo.com/" />
+    <meta property="og:image" content="http://www.pixelingo.com/-/i/pixelingo-fb.png" />
+    <meta property="og:site_name" content="Pixelingo" />
+    <meta property="og:description" content="Carolyn Wood's consultancy providing user-experience-focused writing, editing, content strategy and creative direction for businesses, nonprofits, artists, and indie publishers." />
         
 
     <link rel="stylesheet" href="/-/c/base.css" media="screen" />
@@ -88,7 +91,10 @@
                     <li class="dotted-dot">Advice about making something that hasn&#8217;t been invented yet, and perhaps helping you invent it?</li>
                 </ul><!-- .dotted -->
                 <div class="content-closer">
-                    <p>&#8220;Yes, I do that!&#8221; I cried, &#8220;Yes, yes, yes, yes, oh, wow, yes, and yes!&#8221; I&#8217;ve lost track of the correct number of &#8220;yesses,&#8221; but, yes: thinking, words, people, ideas, action, clarity, community, relevance.</p>
+                    <!--
+                        If a Paragraph starts with Quotation marks. We're adding a class of quote-indent so the characters line up                                against the left side the the quotation mark will hang over the left.
+                    -->
+                    <p class="quote-indent">&#8220;Yes, I do that!&#8221; I cried, &#8220;Yes, yes, yes, yes, oh, wow, yes, and yes!&#8221; I&#8217;ve lost track of the correct number of &#8220;yesses,&#8221; but, yes: thinking, words, people, ideas, action, clarity, community, relevance.</p>
                 </div><!-- .content-closer -->
             </div><!-- .questionnaire -->   
         </section><!-- .context --> 

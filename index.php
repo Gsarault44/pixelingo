@@ -19,6 +19,7 @@
     <meta name="viewport" content="width=device-width , initial-scale=1.0" />
 
     <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+    <link rel="Icon" href="/favicon-1.ico" type="icon" />
 
     <!-- Facebook stuff -->    
     <meta property="og:title" content="Pixelingo: Heavy meds for your pain points" />

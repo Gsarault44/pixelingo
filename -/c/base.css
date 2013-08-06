@@ -63,7 +63,7 @@ form::-webkit-validation-bubble-message { display:none; }
 
 label { font-size:18px; font-size: 1.85rem; }
 input, select, textarea { font-size:18px; font-size:1.85rem; }
-input::-webkit-input-placeholder, textarea::-webkit-input-placeholder { }
+input:focus::-webkit-input-placeholder, textarea:focus::-webkit-input-placeholder { color:transparent; }
 input.empty::-webkit-input-placeholder, textarea.empty::-webkit-input-placeholder { color: red; }
 input.empty:-moz-placeholder, textarea.empty:-moz-placeholder { color: red; }
 
@@ -250,17 +250,42 @@ sub, sup { line-height: 0; }
 /*-------------------------------------------    
 	Footer
 -------------------------------------------*/
+.logotype {display:block;}
+
+.footer-right-block { display:inline-block;}
+
+.footer-newsletter { padding-left:15px; margin-top:-3px; display:inline-block; }
+
+.footer-newsletter .dotted-dot:before { width: 4px; height: 4px; left:-10px; top:12px; }
+
+.newsletter-form { margin:0; padding:1em;}
+
+.subscribe {display: inline; padding:0;}
+
+.subscribe:after {content:""; position:relative; left: 7px; bottom: 2px; display:inline-block; border-left: 4px solid transparent; border-right: 4px solid transparent; border-top: 4px solid #cecdc8; }
+
+.signup-form { background:#fff; -moz-box-shadow: 6px 6px 0px -1px #ccc; -webkit-box-shadow: 6px 6px 0px -1px #ccc; box-shadow: 6px 6px 0px -1px #ccc; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; max-width:360px; text-align:left; margin-top:1em ;}
+
+.signup-email-container { display:inline-block; width:60%;  }
+
+.signup-email {display:inline-block; background:#e8e7e1; border:none; padding:0.74em; -webkit-transition:background-color 1s ease; -moz-transition:background-color 1s ease; -o-transition:background-color 1s ease; transition:background-color 1s ease; font-size:14px; width:85%; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; width:100%; }
+
+.signup-button-container { display:inline-block; width:25%; }
+
+.signup-button-container .button { display:inline-block; margin-left: 1em ; font-size:14px; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
 
 .footer { border-top:1px solid #dcdbd6; margin:50px 0; padding:50px 0;}
 
 .copywright .copywright-content { font-size:14px; font-size:1.4rem; margin:0 0 1rem; color:#9d9c98; }
 
+.social { padding:0; display:inline;}
 
-.social { padding:0; }
+.social .content-link { border-bottom:1px solid #93928f; font-size:12px; font-size:1.2rem; margin-bottom:1em;}
 
-.social .content-link { border-bottom:1px solid #93928f; font-size:14px; font-size:1.4rem;}
+.subscribe { font-size:12px; font-size:1.2rem; margin-bottom:1em;}
 
 .social .content-link:hover { border-bottom:1px solid #cc0000; }
+
 
 
 @media screen and (min-width: 420px) {
@@ -307,16 +332,21 @@ sub, sup { line-height: 0; }
     
     .lead-intro-content { font-size: 2.7rem; line-height: 1.35em; margin:0 0 3.35rem;}
     
-    .copywright { float:left;}
     
-    .copywright .copywright-content { font-size:14px; font-size:1.4rem; margin:0 0 1rem; }
     
-    .social { float:right; display: inline-block; margin-top: -4px; }
+    .copywright .copywright-content { font-size:12px; font-size:1.2rem; margin:0 0 1rem; }
+    
+    .social { display: inline-block; margin-top: 3px; }
     
     .soft-heading { margin:0 0 0.79rem; }
     
-}    
-
+}  
+@media screen and (min-width: 788px) {  
+    
+    .copywright { float:left; position:absolute;}
+    
+    .footer-right-block { float:right; text-align:right; }
+}
 
 @media screen and (min-width: 960px) {
      
@@ -332,6 +362,13 @@ sub, sup { line-height: 0; }
 
     .nav-button { max-width:29%; }
     
+    
+    
+    
+}
+@media screen and (min-width: 1090px) {
+    
+    .logotype {display:inline-block;}
     
 }
 

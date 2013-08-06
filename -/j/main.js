@@ -34,6 +34,16 @@ $(document).ready(function () {
         return false;
     });   
     
+    $('.subscribe').click(function(){
+        $(this).toggleClass('subscribe-click');
+        $('.signup-form').fadeToggle(
+            {
+                duration: 400, 
+                easing:"easeInOutQuart"
+            }
+        );
+        return false;
+    });
 
     
     $('.submit').click(function(){

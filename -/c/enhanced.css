@@ -2,6 +2,11 @@
 
 .red { border: 1px solid #cc0000;}
 
+.signup-form { display:none; }
+
+.subscribe-click:after { border-top: 4px solid #cc0000; }
+.subscribe-click { border-bottom:1px solid #93928f; font-size:12px; font-size:1.2rem; margin-bottom:1em;}
+
 /*-------------------------------------------    
 	Nav
 -------------------------------------------*/
